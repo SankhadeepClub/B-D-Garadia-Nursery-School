@@ -36,7 +36,32 @@ nav a {
 nav a:hover {
     background:#333;
 }
+.activity-container {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    gap:15px;
+    margin-top:20px;
+}
 
+.activity-box {
+    background:#f9f9f9;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.activity-box h3 {
+    color:#0066cc;
+    margin-bottom:10px;
+}
+
+.activity-box ul {
+    padding-left:15px;
+}
+
+.activity-box li {
+    margin-bottom:5px;
+}
 /* Section */
 section {
     padding:20px;
@@ -131,7 +156,84 @@ footer {
 </div>
 <p>👉 Replace images with your school photos</p>
 </section>
+<section id="activities" class="box">
+<h2>Our Activities 🎈</h2>
 
+<div class="activity-container">
+
+<div class="activity-box">
+<h3>🎨 Creative Activities</h3>
+<ul>
+<li>Drawing & Coloring</li>
+<li>Clay Modeling</li>
+<li>Paper Craft</li>
+<li>Hand Printing</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>🎵 Music & Fun</h3>
+<ul>
+<li>Rhymes & Singing</li>
+<li>Dance Activity</li>
+<li>Action Songs</li>
+<li>Musical Games</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>📚 Learning Activities</h3>
+<ul>
+<li>Alphabet Learning (A–Z)</li>
+<li>Number Counting</li>
+<li>Story Telling</li>
+<li>Picture Recognition</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>🧠 Brain Development</h3>
+<ul>
+<li>Puzzle Games</li>
+<li>Matching Games</li>
+<li>Sorting Colors & Shapes</li>
+<li>Memory Games</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>🏃 Physical Activities</h3>
+<ul>
+<li>Free Play</li>
+<li>Outdoor Games</li>
+<li>Yoga for Kids</li>
+<li>Fun Exercise</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>🎉 Special Activities</h3>
+<ul>
+<li>Birthday Celebration</li>
+<li>Annual Function</li>
+<li>Fancy Dress Competition</li>
+<li>Festival Celebration</li>
+</ul>
+</div>
+
+<div class="activity-box">
+<h3>🌱 Life Skills</h3>
+<ul>
+<li>Cleanliness Habit</li>
+<li>Sharing & Caring</li>
+<li>Good Manners</li>
+<li>Basic Discipline</li>
+</ul>
+</div>
+
+</div>
+
+</section>
 <!-- Notice -->
 <section id="notice" class="box">
 <h2>Notice Board 📝</h2>
@@ -178,6 +280,7 @@ function submitForm() {
 </body>
 
 </html>
+
 
 
 
